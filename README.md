@@ -36,6 +36,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
+- about landmaks
 - card structure
   card > card-img , card-body > card-title, card-text
 - border-radius
@@ -63,8 +64,7 @@ body {
 
 ## Author
 
-- Website - [Mays](https://www.your-site.com)
-- Frontend Mentor - [@mays21](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@mays21](https://www.frontendmentor.io/profile/mays21)
 
 ## Acknowledgments
 
