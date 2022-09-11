@@ -21,15 +21,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="./design/mobil_screenshot.png" width="20%">
+<img src="./design/desktop_screenshot.png" width="50%">
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://mays21.github.io/qr-code-component/](https://mays21.github.io/qr-code-component/)
 
 ## My process
-
-- 90%
 
 ### Built with
 
