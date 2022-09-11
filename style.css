@@ -1,0 +1,30 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  margin-top: 100px;
+  width: 320px;
+  border-radius: 5%;
+  background-color: #fff;
+}
+
+.card-img {
+  border-radius: 10%;
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  line-height: 2rem;
+}
+.card-text {
+  color: hsl(220, 15%, 55%);
+  padding: 5px 20px 20px;
+  line-height: 1rem;
+}
