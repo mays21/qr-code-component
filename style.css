@@ -3,28 +3,32 @@ body {
   text-align: center;
   font-size: 15px;
   font-family: "Outfit", sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card {
-  margin-top: 100px;
   max-width: 320px;
   border-radius: 5%;
   background-color: #fff;
 }
 
 .card-img {
-  border-radius: 10%;
+  border-radius: 8%;
   padding: 1rem;
 }
 
 .card-title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
-  line-height: 2rem;
+  line-height: 1.2em;
 }
 .card-text {
   color: hsl(220, 15%, 55%);
-  padding: 5px 20px 20px;
-  line-height: 1rem;
+  padding: 0.2em 0.8em 2em;
+  line-height: 1.2em;
 }

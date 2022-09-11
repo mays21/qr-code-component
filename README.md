@@ -15,14 +15,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-<img src="./design/mobil_screenshot.png" width="20%">
-<img src="./design/desktop_screenshot.png" width="50%">
+![](./screenshot.png)
 
 ### Links
 
@@ -35,22 +32,21 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Bootstrap 5
+- flex-box
 
 ### What I learned
 
 - card structure
+  card > card-img , card-body > card-title, card-text
 - border-radius
+- center layout
 
 ```css
-.card {
-  border-radius: 5%;
-}
-.card-img {
-  border-radius: 10%;
-}
-.card-title {
-}
-.card-text {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 ```
 
@@ -63,6 +59,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Useful resources
 
 - [Cards - Bootstrap v5.0](https://getbootstrap.jp/docs/5.0/components/card/)
+- [Are you using the right CSS units?](https://www.youtube.com/watch?v=N5wpD9Ov_To)
 
 ## Author
 
@@ -73,7 +70,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - CSS 画像の border-radius は直接 img タグに設定すること
 - CSS カードの中央寄せは mx-auto を指定する
-- CSS カードの上下中央寄せは今後の課題
+- CSS カードの上下中央寄せは 親要素に dispaly:flex;を使うこと
 
 ## Got feedback for us?
 
